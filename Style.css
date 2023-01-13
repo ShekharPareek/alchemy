@@ -3206,7 +3206,6 @@ footer {
     background-color: #020202;
     margin-top: -36px;
     position: relative;
-    z-index: 99;
     overflow: hidden;
 }
 
@@ -3728,11 +3727,16 @@ h5 {
 
 .color-solono-wall {
     background-color: #fafbfd !important;
-    border-bottom-left-radius: 45px;
-    border-bottom-right-radius: 45px;
 }
 
 .solana-logo-img {
     max-width: 100%;
     width: 157px;
+}
+
+.solona-gradient {
+    background-image: url(./img/solona-gradient-wall.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
