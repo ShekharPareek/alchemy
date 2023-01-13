@@ -124,6 +124,7 @@ $(document).ready(function ($) {
     var target = $(this).attr("id");
     $("[data-tab=" + target + "]").show();
   });
+
   // For nav bar Hamburger-menu
   const hamburgerbtnContainer = document.querySelector(".hamburger-menu");
   const hamburgBtn = document.querySelector(".hamburger-menu i");
@@ -164,12 +165,4 @@ function myFunction() {
   }
 }
 
-// $(document).ready(function () {
-//   $(window).resize(function () {
-//     if ($(window).width() < 450) {
-//       $(".cards-slick").slick({});
-//     } else {
-//       $(".cards-slick").unslick();
-//     }
-//   });
-// });
+// Solana Accordian

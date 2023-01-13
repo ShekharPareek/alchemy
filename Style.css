@@ -1,3 +1,10 @@
+@font-face {
+    font-family: sheMontreal-font;
+    src: url(./img/Montreal-Bold.ttf);
+}
+
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -280,6 +287,8 @@ header>.announcment-bar {
     font-size: 15px;
     padding: 7px;
     font-weight: 300;
+    font-family: Rubik, sans-serif;
+
 }
 
 .product-icon_container {
@@ -433,6 +442,28 @@ nav>.nav-item {
     max-width: 100%;
     width: 115px;
     font-size: 14px;
+    font-family: sheMontreal-font;
+    font-weight: 700;
+
+}
+
+.footer_link {
+    font-family: var(--font-family);
+    font-weight: 300;
+}
+
+.lower-bottom-footer>p {
+    font-family: Rubik, sans-serif;
+    font-size: 12.8px;
+}
+
+.footer-bottom-right-btn>p {
+    font-family: Rubik, sans-serif;
+    font-weight: 300;
+}
+
+.Bold-text {
+    font-family: sheMontreal-font !important;
 }
 
 .user-btn-sign-up>a {
@@ -1507,6 +1538,7 @@ footer {
 .footer-small-heading {
     font-size: 16px;
     color: white;
+    font-family: Rubik, sans-serif;
 }
 
 .newsletter-footer {
@@ -1553,6 +1585,8 @@ footer {
     font-size: 16px;
     margin-bottom: 19px;
     color: white;
+    font-family: var(--font-family);
+    font-weight: 700;
 }
 
 .lower-bottom-footer {
@@ -1598,11 +1632,14 @@ footer {
 
 /* Nav Bar item PRoduct Drop-down CSS */
 
+.product-drop-down {
+    display: none !important;
+}
 
 .product-drop-down {
     border-radius: 20px;
     padding: 40px 50px 40px 50px;
-    display: none;
+    display: flex;
     justify-content: space-around;
     position: absolute;
     top: 80%;
@@ -3175,12 +3212,12 @@ footer {
 
 .enhanced-cta-gradient {
     position: absolute;
-    left: -1%;
+    left: 12%;
     top: 42%;
     right: auto;
     bottom: auto;
-    width: 100%;
-    min-height: 424px;
+    width: 79%;
+    min-height: 594px;
     border-radius: 100%;
     background-color: #d87dfb;
     filter: blur(200px);
@@ -3188,6 +3225,13 @@ footer {
     border: 10px solid #000;
     border-bottom: 0;
     max-width: 100%;
+}
+
+.polygon-gradient {
+    background-color: #a378ff !important;
+    top: 21%;
+    left: -1%;
+    width: 719%;
 }
 
 .gradient-colors-container {
@@ -3394,7 +3438,7 @@ h5 {
     font-size: 16px;
     line-height: 24px;
     font-family: var(--font-family);
-    font-weight: 700;
+    font-weight: 300;
 }
 
 .eth-benifits-right {
@@ -3409,6 +3453,7 @@ h5 {
     width: 360px;
     max-width: 100%;
     font-weight: 800;
+    line-height: 100%;
 }
 
 .eth-benifits-left>p {
@@ -3440,4 +3485,254 @@ h5 {
 
 .text-color-gray {
     color: #4e4e4e;
+}
+
+.nav-item>a:hover .drop-down {
+    display: flex;
+}
+
+
+/********************************* Ploygon Tab Css ************************************************************/
+
+.polygon-top-banner {
+    background-image: url(./img/polygon-main\ -image-banner.svg);
+    background-position: 0% 99%;
+    background-size: 122%;
+    background-repeat: no-repeat;
+}
+
+.polygon-btn {
+    padding: 7px 30px 7px 30px;
+    border-radius: 30px;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-bottom: 14px;
+}
+
+.polygon-btn>img {
+    max-width: 100%;
+    width: 100px;
+}
+
+.gt-started-free-white-btn {
+    padding: 15px 32px 15px 32px;
+    background: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.gt-started-free-white-btn:hover {
+    box-shadow: 1px 1px 25px 0 rgb(54 190 255 / 30%);
+    color: #363ff9;
+    transition: 0.1s ease;
+}
+
+.poly-content-left-container {
+    padding: 245px 11px;
+}
+
+.content-in--left {
+    padding-left: 0;
+    padding-bottom: 40px;
+}
+
+.polygon-btn:hover {
+    border: 1px solid #6f61de;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+.left-content-heading {
+    font-size: 80px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: -8px;
+    width: 840px;
+    max-width: 100%;
+    font-family: sheMontreal-font;
+}
+
+
+.left-conent-sub-heading {
+    font-size: 16px;
+    width: 609px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-weight: 400;
+}
+
+
+.without-border--me-btn {
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    transition: margin 2s;
+}
+
+.without-border--me-btn:hover {
+
+
+    color: white;
+}
+
+.without-border--me-btn:hover span::before {
+    transition: margin 5px;
+    content: '-';
+    margin-left: 1px;
+    color: #7e6dee;
+}
+
+.poly-cut-section-margin-top {
+    margin-top: -216px;
+}
+
+
+/*************************** Solana Tab Css ************************/
+.solana-top-banner {
+    background-image: url("./img/solana\ -main-banner-wall.svg") !important;
+}
+
+.solana-benifts-cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    padding-bottom: 45px;
+    padding-top: 45px;
+}
+
+.ask-questions-heading>h2 {
+    font-weight: 700;
+    font-family: sheMontreal-font;
+    letter-spacing: 0px;
+}
+
+/*****************************solana Accordian CSS******************************************/
+.accordions {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.section {
+    max-width: 100%;
+    height: auto;
+    width: 70%;
+    padding: 20px 0px 30px 0px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-bottom: 1px solid #cfd9f0;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+    font-family: sheMontreal-font;
+    background-size: 300% 100%;
+    letter-spacing: -1.8px;
+}
+
+._active .section,
+.section:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+
+.section:after {
+    content: "+";
+    float: right;
+}
+
+.para {
+    display: none;
+    max-width: 100%;
+    width: 76%;
+    height: auto;
+    font-size: 26px;
+    margin: 0px auto;
+    font-family: 'Rubik';
+    text-align: left;
+    font-weight: 300 !important;
+    padding-left: 53px;
+    padding-top: 41px;
+    line-height: 44px;
+}
+
+._active .section:after {
+    content: "-";
+    /*   transform: rotate(90deg); */
+}
+
+
+._active .para {
+    display: block;
+}
+
+.hover-me-btn {
+    border-radius: 29px;
+    padding: 8px 13px;
+    font-size: 16px;
+    background: dodgerblue;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 60px;
+    margin-left: 185px;
+}
+
+.hover-me-btn:hover,
+.hover-me-btn:hover .side-arrow {
+    color: white;
+    background-color: #0057da;
+
+}
+
+.side-arrow {
+    display: inline-block;
+    margin-left: 4px;
+    font-size: 16px;
+    color: black;
+}
+
+
+.hover-me-btn:hover .side-arrow {
+    transform: rotate(45deg);
+    transition: all 0.45s ease-in-out;
+}
+
+/******************************Solana Accordian CSS*********************************/
+.ask-questions-heading {
+    padding-bottom: 40px;
+    padding-left: 185px;
+}
+
+.ask-questions-heading>h5 {
+    padding-bottom: 20px;
+    font-size: 22.4px;
+    font-weight: 700;
+}
+
+.accordian-container {
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.color-solono-wall {
+    background-color: #fafbfd !important;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+
+.solana-logo-img {
+    max-width: 100%;
+    width: 157px;
 }
