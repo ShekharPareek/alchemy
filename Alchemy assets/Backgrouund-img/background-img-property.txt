@@ -1,0 +1,2 @@
+Website background image property
+    background-image: linear-gradient(287deg,#733ff1 39%,#36beff 95%);

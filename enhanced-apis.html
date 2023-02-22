@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Replica Alchemy</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Public+Sans:wght@100;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.cdnfonts.com/css/public-sans" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.2/font/bootstrap-icons.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="super-node-header">
+        <div class="announcment-bar">🥳 Introducing the Alchemy Dapp Store, web3's free and community-supported directory
+        </div>
+        <div class="allignment-wrapper parent-positioner">
+            <nav class="nav-bar d-flex sdk-nav-bar">
+                <div class="logo">
+                    <a href="">
+                        <img src="./Alchemy assets/Logo.svg" alt="" class="company-logo">
+                    </a>
+                </div>
+                <div class="nav-item">
+                    <a id="tab-1" class="anchor-tag product-menu" href="#">products</a>
+                    <a id="tab-2" class="anchor-tag product-menu" href="">Use cases</a>
+                    <a class="anchor-tag" href="">Developers</a>
+                    <a class="anchor-tag" href="">Company</a>
+                    <a class="anchor-tag" href="">Pricing</a>
+                </div>
+                <!-- //product drop-down on hover -->
+                <div class="product-drop-down-tabs-content">
+                    <div data-text="tab-1" class="drop-down">
+                        <div class="product-drop-down">
+                            <div class="drop-menu-item">
+                                <div class="drop-menu-heading">PRODUCT SUIT</div>
+                                <div class="drop-menu-items-list">
+                                    <div class="list-content">
+                                        <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <h5>Supernode</h5>
+                                            <p>Supercharged web3 API</p>
+                                        </div>
+                                    </div>
+                                    <div class="list-content">
+                                        <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <h5>NFT API</h5>
+                                            <p>Build all NFT functionality with ease</p>
+                                        </div>
+                                    </div>
+                                    <div class="list-content">
+                                        <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <h5>SDk</h5>
+                                            <p>Plug Alchemy into yout app</p>
+                                        </div>
+                                    </div>
+                                    <div class="list-content">
+                                        <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <h5>Transact</h5>
+                                            <p>Free and automated allowlists</p>
+                                        </div>
+                                    </div>
+                                    <div class="list-content">
+                                        <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <h5>Notify</h5>
+                                            <p>Add notifications to your app</p>
+                                        </div>
+                                    </div>
+                                    <div class="list-content">
+                                        <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <h5>Enhanced APIs</h5>
+                                            <p>New Functionlity to your app</p>
+                                        </div>
+                                    </div>
+                                    <div class="list-content">
+                                        <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <h5>Spearmint</h5>
+                                            <p>Free and automated allowlists</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="drop-menu-item">
+                                <div class="drop-menu-heading">CHAINS</div>
+                                <div class="drop-menu-items-list">
+                                    <div class="list-content">
+                                        <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <h5>Ethereum</h5>
+                                            <p>The default web3 blockchain</p>
+                                        </div>
+                                    </div>
+                                    <div class="list-content">
+                                        <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <h5>Polygon</h5>
+                                            <p>Easy Ethereum scating</p>
+                                        </div>
+                                    </div>
+                                    <div class="list-content">
+                                        <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <h5>Selana</h5>
+                                            <p>Powerful and fast for everyone</p>
+                                        </div>
+                                    </div>
+                                    <div class="list-content">
+                                        <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <h5>Arbitrum</h5>
+                                            <p>Scale wihtout compromise</p>
+                                        </div>
+                                    </div>
+                                    <div class="list-content">
+                                        <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <h5>Optimism</h5>
+                                            <p>New scaliblity stack</p>
+                                        </div>
+                                    </div>
+                                    <div class="list-content">
+                                        <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <h5>Astar</h5>
+                                            <p>Connecting polkadot to all L1s</p>
+                                        </div>
+                                    </div>
+                                    <div class="list-content">
+                                        <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <h5>Starknet</h5>
+                                            <p>Security with Zk-Rollups</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div data-text="tab-2" class="product-drop-down lft-position-usecase">
+                            <div class="drop-menu-item">
+                                <div class="drop-menu-heading">CASE STUDIES</div>
+                                <div class="drop-menu-items-list">
+                                    <div class="list-content">
+                                        <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <h5>Zapper</h5>
+                                            <p>30% cost saving with Alchemy</p>
+                                        </div>
+                                    </div>
+                                    <div class="list-content">
+                                        <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <h5>Decentral Games</h5>
+                                            <p>1K NFT sold out in under 2min</p>
+                                        </div>
+                                    </div>
+                                    <div class="list-content">
+                                        <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <h5>Zerion</h5>
+                                            <p>7800 annual eng hours saved</p>
+                                        </div>
+                                    </div>
+                                    <div class="list-content">
+                                        <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <h5>Collab.land</h5>
+                                            <p>3.5M+ wallets integrated </p>
+                                        </div>
+                                    </div>
+                                    <div class="list-content">
+                                        <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <h5>Royal</h5>
+                                            <p>33% of polygon capacity in single drop</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="drop-menu-item">
+                                <div class="drop-menu-heading">FEATURED USE CASES</div>
+                                <div class="drop-menu-items-list">
+                                    <div class="list-content">
+                                        <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <h5>NFT</h5>
+                                            <p>supporting all major NFT platforms</p>
+                                        </div>
+                                    </div>
+                                    <div class="list-content">
+                                        <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <h5>DeFi</h5>
+                                            <p>Powering the majority of DeFi</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-text="tab-3" class="product-drop-down justify-content developers-position">
+                            <div class="drop-menu-item">
+                                <div class="drop-menu-heading">DOCUMENTATION </div>
+                                <div class="drop-menu-items-list">
+                                    <div class="d-flex">
+                                        <div class="list-content-doc-content">
+                                            <div class="list-names">
+                                                <div class="flex-wrapper">
+                                                    <img src="./img/get-started-tab-drop-down.svg">
+                                                    <h5>Get Started
+                                                    </h5>
+                                                </div>
+                                                <div class="align-content-wrapper">
+                                                    <p class="list-name-content">Developer Hub</p>
+                                                    <p class="list-name-content">Alchemy API overview</p>
+                                                    <p class="list-name-content">SDK Quickstart</p>
+                                                    <p class="list-name-content">NFT API Quickstart</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-content-doc-content">
+                                            <div class="list-names">
+                                                <div class="flex-wrapper">
+                                                    <img src="./img/learn-drop-down-menu-icon.svg">
+                                                    <h5>Learn</h5>
+                                                </div>
+                                                <div class="align-content-wrapper">
+                                                    <p class="list-name-content">Alchemy University</p>
+                                                    <p class="list-name-content">Alchemy Quickstart</p>
+                                                    <p class="list-name-content">Depoy First Smart Contract</p>
+                                                    <P class="list-name-content">Create on NFT Minter</P>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-content-doc-content">
+                                        <div class="list-names list-name-docs-content">
+                                            <div class="flex-wrapper">
+                                                <img src="./img/get-started-tab-drop-down.svg">
+                                                <h5>Chain Docs
+                                                </h5>
+                                            </div>
+                                            <div class="d-flex flex-override">
+                                                <div class="align-content-wrapper">
+                                                    <p class="list-name-content">Ethereum</p>
+                                                    <p class="list-name-content">Polygon</p>
+                                                    <p class="list-name-content">Solana</p>
+                                                </div>
+                                                <div class="list-content-doc-content">
+                                                    <div class="align-content-wrapper">
+                                                        <p class="list-name-content">Arbitrum</p>
+                                                        <p class="list-name-content">Optimism</p>
+                                                        <p class="list-name-content">Astar</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-content-doc-content padding-40-top ">
+                                        <div class="">
+                                            <div class="drop-menu-heading">RESOURCES</div>
+                                            <div class="d-flex flex-override align-item">
+                                                <div class="align-content-wrapper">
+                                                    <h5 class="list-name-content">DApp Store</h5>
+                                                    <h5 class="list-name-content">Guides</h5>
+                                                    <h5 class="list-name-content">Status</h5>
+                                                </div>
+                                                <div class="list-content-doc-content">
+                                                    <div class="align-content-wrapper">
+                                                        <h5 class="list-name-content">Goerli Faucet</h5>
+                                                        <h5 class="list-name-content">Discover</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-4" class="nav-menu_company-component product-drop-down">
+                            <div class="d-flex flex-gap-35">
+                                <div class="flex-content">
+                                    <div class="flex-wrapper">
+                                        <div class="list-icon"><img src="./img/company-component-1.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <p>BLOG</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex-wrapper">
+                                        <div class="list-icon"><img src="./img/company-component-2.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <p>NEWSROOM</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex-wrapper">
+                                        <div class="list-icon"><img src="./img/company-component-3.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <p>NEWSLETTER</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex-wrapper">
+                                        <div class="list-icon"><img src="./img/company-component-4.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <p>EVENTS</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex-content">
+                                    <div class="flex-wrapper">
+                                        <div class="list-icon"><img src="./img/company-component-5.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <p>ABOUT</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex-wrapper">
+                                        <div class="list-icon"><img src="./img/company-component-6.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <p>CAREERS</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex-wrapper">
+                                        <div class="list-icon"><img src="./img/company-component-7.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <p>Get in touch</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex-wrapper">
+                                        <div class="list-icon"><img src="./img/company-component-7.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <p>Ventures</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="account-login">
+                        <button class="user-btn-sign-in"><a class="anchor-tag" href="./sign-in.html">sign-in</a></button>
+                        <button class="user-btn-sign-up"><a class="anchor-tag " href="./sign-in.html">sign-up</a></button>
+                    </div>
+            </nav>
+            </div>
+    </header>
+    <main class="enhanced-api-hero-section">
+        <div class="large-width-wrapper">
+            <div class="enhanced-api-image-wth-text-container">
+                <div class="notify-section-transact-card notify-pre-footer-card enhanced-api-txt-container ">
+                    <div class="transact-card-txt-container notify-pre-footer-card-text-container enhanced-apis-card">
+                        <p class=" Quote-tagline tagline_ceo alchemy-tagline">ALCHEMY NOTIFY</p>
+                        <h2 class="notify-card-large-heading">Enhanced API methods</h2>
+                        <p class="transact-card-para">Growing suite of enhanced API methods to make your life as a developer easier. No more complex and costly blockchain requests, get all the data you need for transactions, token information, and debugging, in fewer requests.</p>
+                        <div class="d-flex flex-gap">
+                            <button class="notify-hero-section-btn">Get started</button><button class="blue-trasnparent-btn">View Docs</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <div class="enhanced-api-row-section">
+        <div class="large-width-wrapper">
+            <div class="hero-brand-logo-row">
+                <h4 class="hero-brand-logo-heading">POWERING THE BEST IN BLOCKCHAIN</h4>
+                <div class="hero-brand-logo-container">
+                    <div class="hero-brand-logo"> <img src="./Alchemy assets/Slider-1/logo-brand.svg" alt="slide-img">
+                    </div>
+                    <div class="hero-brand-logo"> <img src="./Alchemy assets/Slider-1/slider-2.svg" alt="slide-img">
+                    </div>
+                    <div class="hero-brand-logo"> <img src="./Alchemy assets/Slider-1/logo-3.svg" alt="slide-img">
+                    </div>
+                    <div class="hero-brand-logo"> <img src="./Alchemy assets/Slider-1/logo-4.svg" alt="slide-img">
+                    </div>
+                    <div class="hero-brand-logo"> <img src="./Alchemy assets/Slider-1/logo-5.svg" alt="slide-img">
+                    </div>
+                    <div class="hero-brand-logo"> <img src="./Alchemy assets/Slider-1/logo-5.svg" alt="slide-img">
+                    </div>
+                    <div class="hero-brand-logo"> <img src="./Alchemy assets/Slider-1/logo-6.svg" alt="slide-img">
+                    </div>
+                    <div class="hero-brand-logo"> <img src="./Alchemy assets/Slider-1/logo-7.svg" alt="slide-img">
+                    </div>
+                </div>
+                <div class="hero-brand-logo-container">
+                    <div class="hero-brand-logo"> <img src="./Alchemy assets/Slider-1/logo-8.svg" alt="slide-img">
+                    </div>
+                    <div class="hero-brand-logo"> <img src="./Alchemy assets/Slider-2/Logo-1.svg" alt="slide-img">
+                    </div>
+                    <div class="hero-brand-logo"> <img src="./Alchemy assets/Slider-2/logo-2.svg" alt="slide-img">
+                    </div>
+                    <div class="hero-brand-logo"> <img src="./Alchemy assets/Slider-2/logo-3.svg" alt="slide-img">
+                    </div>
+                    <div class="hero-brand-logo"> <img src="./Alchemy assets/Slider-2/logo-4.svg" alt="slide-img">
+                    </div>
+                    <div class="hero-brand-logo"> <img src="./Alchemy assets/Slider-2/logo-5.svg" alt="slide-img">
+                    </div>
+                    <div class="hero-brand-logo"> <img src="./Alchemy assets/Slider-2/logo-6.svg" alt="slide-img">
+                    </div>
+                    <div class="hero-brand-logo"> <img src="./Alchemy assets/Slider-2/logo-7.svg" alt="slide-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="intro-centered-content margin-45-bottom">
+        <h4 class="hero-brand-logo-heading">POWERFUL API CALLS, DESIGNED FOR DEVELOPERS</h4>
+        <h4 class="into-centered-heading">Access the blockchain like never before</h4>
+    </div>
+    <section class="enhanced-cards-grid-main-container">
+        <div class="enhanced-grid-card-gray enhanced-card-wdt">
+            <div class="notify-pre-footer-image-text-section large-width-wrapper">
+                <div class="notify-section-transact-card enhanced-grid-card">
+                    <div class="transact-card-txt-container notify-pre-footer-card-text-container enhanced-grid-card-gray">
+                        <div class="enhanced-grid-card-top">
+                            <div class="card-logo">
+                                <img src="./img/enhanced-card-1 logo.svg">
+                                <p class=" Quote-tagline tagline_ceo enhanced-cards-grid-tagline">TRANSFERS NOTIFY
+                                </p>
+                            </div>
+                        </div>
+                        <h2 class="notify-card-large-heading enhanced-card-heading wdt--50">Transaction history, from genesis
+                        </h2>
+                        <p class="transact-card-para enhanced-para">In a single API call, this method returns the transaction history for a specific account or address, over any block range. Instead of having to traverse the entire chain, instantly get a list of transfer objects corresponding to
+                            the request parameters.</p>
+                        <button class="blue-trasnparent-btn">Learn more</button>
+                    </div>
+                    <div class="trasnsact-card-banner">
+                        <img src="./img/enhanced-card-banner-1.webp">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="enhanced-grid-card-white enhanced-card-wdt">
+            <div class="notify-pre-footer-image-text-section large-width-wrapper">
+                <div class="notify-section-transact-card enhanced-grid-card Flex-row-reverse">
+                    <div class="trasnsact-card-banner">
+                        <img src="./img/enhanced-card-banner-2.webp">
+                    </div>
+                    <div class="transact-card-txt-container notify-pre-footer-card-text-container enhanced-grid-card-white">
+                        <div class="enhanced-grid-card-top">
+                            <div class="card-logo">
+                                <img src="./img/enhanced-card-2 logo.svg">
+                                <p class=" Quote-tagline tagline_ceo enhanced-cards-grid-tagline">TOKEN METADATA
+                                </p>
+                            </div>
+                        </div>
+                        <h2 class="notify-card-large-heading enhanced-card-heading ">Essential token identifiers
+                        </h2>
+                        <p class="transact-card-para enhanced-para">In a single API call, this methods returns crucial token metadata for a given contract address. Giving you necessary information for computing user balances and displaying token information.</p>
+                        <button class="blue-trasnparent-btn">Learn more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="enhanced-grid-card-gray enhanced-card-wdt">
+            <div class="notify-pre-footer-image-text-section large-width-wrapper">
+                <div class="notify-section-transact-card enhanced-grid-card">
+                    <div class="transact-card-txt-container notify-pre-footer-card-text-container enhanced-grid-card-gray">
+                        <div class="enhanced-grid-card-top">
+                            <div class="card-logo">
+                                <img src="./img/enhanced-card-3 logo.svg">
+                                <p class=" Quote-tagline tagline_ceo enhanced-cards-grid-tagline">TOKEN BALANCES
+                                </p>
+                            </div>
+                        </div>
+                        <h2 class="notify-card-large-heading enhanced-card-heading wdt--50">Account balances for each token</h2>
+                        <p class="transact-card-para enhanced-para">In a single API call, this method returns the token balances for a user address given a list of token contracts.</p>
+                        <button class="blue-trasnparent-btn">Learn more</button>
+                    </div>
+                    <div class="trasnsact-card-banner">
+                        <img src="./img/enhanced-card-banner-3.webp">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="enhanced-grid-card-white enhanced-card-wdt">
+            <div class="notify-pre-footer-image-text-section large-width-wrapper">
+                <div class="notify-section-transact-card enhanced-grid-card">
+                    <div class="trasnsact-card-banner">
+                        <img src="./img/enhanced-card-banner-4.webp">
+                    </div>
+                    <div class="transact-card-txt-container notify-pre-footer-card-text-container enhanced-grid-card-white">
+                        <div class="enhanced-grid-card-top">
+                            <div class="card-logo">
+                                <img src="./img/enhanced-card-4 logo.svg">
+                                <p class=" Quote-tagline tagline_ceo enhanced-cards-grid-tagline">TOKEN ALLOWANCE
+                                </p>
+                            </div>
+                        </div>
+                        <h2 class="notify-card-large-heading enhanced-card-heading">Amount of tokens available
+                        </h2>
+                        <p class="transact-card-para enhanced-para">In a single API call, this method returns the amount of a given token that that a spender is allowed to withdraw from the token owner</p>
+                        <button class="blue-trasnparent-btn">Learn more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="enhanced-grid-card-gray enhanced-card-wdt">
+            <div class="notify-pre-footer-image-text-section large-width-wrapper">
+                <div class="notify-section-transact-card enhanced-grid-card">
+                    <div class="transact-card-txt-container notify-pre-footer-card-text-container enhanced-grid-card-gray">
+                        <div class="enhanced-grid-card-top">
+                            <div class="card-logo">
+                                <img src="./img/enhanced-card-3 logo.svg">
+                                <p class=" Quote-tagline tagline_ceo enhanced-cards-grid-tagline">TRANSACTION RECEIPTS
+                                </p>
+                            </div>
+                        </div>
+                        <h2 class="notify-card-large-heading enhanced-card-heading wdt--50">Full transaction receipts, from the entire block</h2>
+                        <p class="transact-card-para enhanced-para">In a single API call, this method returns the full transaction receipt for each transaction contained within a specified block.
+                        </p>
+                        <button class="blue-trasnparent-btn">Learn more</button>
+                    </div>
+                    <div class="trasnsact-card-banner">
+                        <img src="./img/enhanced-card-banner-5.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="enhanced-grid-card-white enhanced-card-wdt">
+            <div class="notify-pre-footer-image-text-section large-width-wrapper">
+                <div class="notify-section-transact-card enhanced-grid-card">
+                    <div class="trasnsact-card-banner">
+                        <img src="./img/enhanced-card-banner-6.webp">
+                    </div>
+                    <div class="transact-card-txt-container notify-pre-footer-card-text-container enhanced-grid-card-white">
+                        <div class="enhanced-grid-card-top">
+                            <div class="card-logo">
+                                <img src="./img/enhanced-card-5 logo.svg">
+                                <p class=" Quote-tagline tagline_ceo enhanced-cards-grid-tagline">TRACE API
+                                </p>
+                            </div>
+                        </div>
+                        <h2 class="notify-card-large-heading enhanced-card-heading">Deeper transaction insights</h2>
+                        <p class="transact-card-para enhanced-para">With this suite of API calls, you can easily gain deeper insights into your transaction processing.</p>
+                        <button class="blue-trasnparent-btn">Learn more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="enhanced-grid-card-gray enhanced-card-wdt">
+            <div class="notify-pre-footer-image-text-section large-width-wrapper">
+                <div class="notify-section-transact-card enhanced-grid-card">
+                    <div class="transact-card-txt-container notify-pre-footer-card-text-container enhanced-grid-card-gray">
+                        <div class="enhanced-grid-card-top">
+                            <div class="card-logo">
+                                <img src="./img/enhanced-card-3 logo.svg">
+                                <p class=" Quote-tagline tagline_ceo enhanced-cards-grid-tagline">DEBUG API
+                                </p>
+                            </div>
+                        </div>
+                        <h2 class="notify-card-large-heading enhanced-card-heading wdt--50">Debugging made easy</h2>
+                        <p class="transact-card-para enhanced-para">In a single API call, this method will run a transaction in the same exact manner as it was executed on the network, replaying each transaction along the way.</p>
+                        <button class="blue-trasnparent-btn">Learn more</button>
+                    </div>
+                    <div class="trasnsact-card-banner">
+                        <img src="./img/enhanced-card-banner-7.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="enhanced-grid-card-white enhanced-card-wdt">
+            <div class="notify-pre-footer-image-text-section large-width-wrapper">
+                <div class="notify-section-transact-card enhanced-grid-card">
+                    <div class="trasnsact-card-banner">
+                        <img src="./img/enhanced-card-banner-6.webp">
+                    </div>
+                    <div class="transact-card-txt-container notify-pre-footer-card-text-container enhanced-grid-card-white">
+                        <div class="enhanced-grid-card-top">
+                            <div class="card-logo">
+                                <img src="./img/enhanced-card-7 logo.svg">
+                                <p class=" Quote-tagline tagline_ceo enhanced-cards-grid-tagline">ALCHEMY WEB3
+                                </p>
+                            </div>
+                        </div>
+                        <h2 class="notify-card-large-heading enhanced-card-heading">The most powerful Web3 library, in existence</h2>
+                        <p class="transact-card-para enhanced-para">Alchemy Web3 is a drop-in replacement for web3.js, built and configured to work seamlessly with Alchemy and provide multiple advantages like automatic retries and robust WebSocket support.</p>
+                        <button class="blue-trasnparent-btn">Learn more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="enhanced-grid-card-gray enhanced-card-wdt">
+            <div class="notify-pre-footer-image-text-section large-width-wrapper">
+                <div class="notify-section-transact-card enhanced-grid-card">
+                    <div class="transact-card-txt-container notify-pre-footer-card-text-container enhanced-grid-card-gray">
+                        <div class="enhanced-grid-card-top">
+                            <div class="card-logo">
+                                <img src="./img/enhanced-card-3 logo.svg">
+                                <p class=" Quote-tagline tagline_ceo enhanced-cards-grid-tagline">SUBSCRIPTION API
+                                </p>
+                            </div>
+                        </div>
+                        <h2 class="notify-card-large-heading enhanced-card-heading wdt--50">Subscribe to pending transactions</h2>
+                        <p class="transact-card-para enhanced-para">Subscription to receive full transaction receipts for all new pending transactions, instead of just the transaction hash.
+                        </p>
+                        <button class="blue-trasnparent-btn">Learn more</button>
+                    </div>
+                    <div class="trasnsact-card-banner">
+                        <img src="./img/enhanced-card-banner-8.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="enhanced-api-hero-section enhance-pre-footer">
+        <div class="large-width-wrapper">
+            <div class="enhanced-api-image-wth-text-container">
+                <div class="notify-section-transact-card notify-pre-footer-card enhanced-api-txt-container ">
+                    <div class="transact-card-txt-container notify-pre-footer-card-text-container enhanced-apis-card">
+                        <h2 class="notify-card-large-heading">Build blockchain magic with Alchemy</h2>
+                        <p class="transact-card-para">Our mission is to supercharge the next shift in technology with the world’s most powerful blockchain developer platform. Join the thousands of builders already using Alchemy to make the Web 3.0 promise come true.
+                        </p>
+                        <button class="blue-trasnparent-btn black-bg-btn">Get started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <div class="large-width-wrapper ">
+            <div class="footer-flex-box ">
+                <div class="footer-left ">
+                    <div class="logo margin-11 ">
+                        <a href=" ">
+                            <img style="max-width: 100%; " src="./img/Alchemy-logo-footer.svg " alt=" " class="company-logo ">
+                        </a>
+                    </div>
+                    <p class="footer-small-heading margin-11 ">The web3 development platform</p>
+                    <div class="newsletter-footer ">
+                        <p class="newsletter-text margin-11 ">Supercharge your inbox</p>
+                        <p style="font-size: 13px!important; " class="footer-small-heading margin-11 ">Sign up for our developer newsletter:
+                        </p>
+                        <form class="news-letter-form ">
+                            <input type="email " style="width:250px; " class="newsletter-form_text-field " name="email " data-name="Email " placeholder="Enter your email address " id="email " required=" ">
+                            <input class="submit-btn ">
+                        </form>
+                    </div>
+                </div>
+                <div class="footer-right ">
+                    <div class="footer_link-container ">
+                        <div class="footer_link-heading ">Products</div>
+                        <a href=" " class="footer_link ">Supernode</a>
+                        <a href=" " class="footer_link ">NFT&nbsp;API</a>
+                        <a href=" " class="footer_link ">SDK</a>
+                        <a href=" " class="footer_link ">Notify</a>
+                        <a href=" " class="footer_link ">Enhanced
+                                APIs</a>
+                        <a href=" " class="footer_link ">Monitor</a>
+                        <a href=" " class="footer_link ">Build</a>
+                        <a href=" " class="footer_link ">Composer</a>
+                        <a href=" " class="footer_link ">Transact</a>
+                        <a href=" " class="footer_link ">Spearmint</a>
+                    </div>
+                    <div class="footer_link-container ">
+                        <div class="footer_link-heading ">Developers</div><a href="https://dashboard.alchemyapi.io/login " target="_blank " class="footer_link ">Login</a><a href="https://dashboard.alchemyapi.io/signup/ " target="_blank " class="footer_link ">Sign
+                                Up</a><a href="https://docs.alchemy.com/ " target="_blank " class="footer_link ">Docs</a><a href="https://status.alchemy.com/ " target="_blank " class="footer_link ">Status</a><a href="https://goerlifaucet.com/
+                            " target="_blank " class="footer_link ">Goerli
+                                Faucet</a><a href="https://rinkebyfaucet.com/ " target="_blank " class="footer_link ">Rinkeby
+                                Faucet</a><a href="https://mumbaifaucet.com/ " target="_blank " class="footer_link ">Mumbai
+                                Faucet</a><a href="/gwei-calculator " class="footer_link ">Gwei Calculator</a>
+                    </div>
+                    <div class="footer_link-container ">
+                        <div class="footer_link-heading ">Learn</div><a href="# " class="footer_link is--hidden ">Tutorials</a><a href="# " class="footer_link is--hidden ">Guides</a><a href="# " class="footer_link is--hidden ">Code
+                                Snippets</a><a href="https://university.alchemy.com/ " target="_blank " class="footer_link ">Alchemy
+                                University</a><a href="https://www.alchemy.com/dapps " class="footer_link ">Dapp
+                                Store</a><a href="/overviews " class="footer_link ">Overviews</a><a href="/all-case-studies " class="footer_link ">Case Studies</a><a href="/newsletter " class="footer_link ">Newsletter</a><a href="https://www.alchemy.com/blog "
+                            target="_blank " class="footer_link ">Blog</a><a href="# " class="footer_link is--hidden ">Forum</a>
+                    </div>
+                    <div class="footer_link-container ">
+                        <div class="footer_link-heading ">Company</div>
+                        <a href=" " class="footer_link ">About Us</a>
+                        <a rel="noreferrer " href=" " target="_blank " class="footer_link ">Careers</a>
+                        <a href=" " class="footer_link ">Customers</a>
+                        <a href="# " class="footer_link is--hidden ">Enterprise</a>
+                        <a href=" " class="footer_link ">Newsroom</a>
+                        <a rel="noreferrer " href=" " target="_blank " class="footer_link ">Press Kit</a>
+                        <a rel="noreferrer " href=" " target="_blank " class="footer_link ">Terms of Service</a>
+                        <a rel="noreferrer " href=" " class="footer_link ">Dapp Store Terms of
+                                Use</a>
+                        <a rel="noreferrer " href=" " class="footer_link ">Privacy Policy</a>
+                    </div>
+                    <div class="footer_link-container ">
+                        <div class="footer_link-heading ">Contact</div>
+                        <a href="mailto:hello@alchemy.com " class="footer_link ">General
+                                Inquiries</a>
+                        <a href=" " class="footer_link ">Sales</a>
+                        <a href="mailto:press@alchemy.com " class="footer_link ">Press</a>
+                        <a href="mailto:support@alchemy.com " class="footer_link ">Support</a>
+                        <a rel="noreferrer " href=" " target="_blank " class="footer_link ">Discord</a>
+                    </div>
+
+                </div>
+                <!-- Footer social icons -->
+            </div>
+        </div>
+        <div class="lower-bottom-footer large-width-wrapper ">
+            <p class="footer-small-heading margin-11 ">© 2022 Alchemy Insights, Inc</p>
+            <div class="footer-bottom_right-socialicon ">
+                <div class="footer-social-icon-container ">
+                    <img src="./img/footer-social-1.svg ">
+                    <img src="./img/footer-social-2.svg ">
+                    <img src="./img/footer-social-3.svg ">
+                    <img src="./img/footer-social-4.svg ">
+                    <img src="./img/footer-social-5.svg ">
+                </div>
+                <button class="footer-bottom-right-btn ">
+                        <img src="./img/footer-bottom-right-logo.svg ">
+                        <p>Powered by <span class="Bold-text ">Alchemy</span></p>
+                    </button>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js "></script>
+    <script src="./index.js "></script>
+</body>
+
+</html>

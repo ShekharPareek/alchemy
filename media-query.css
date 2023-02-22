@@ -1,0 +1,151 @@
+@media (min-width: 768px) {
+    .logo {
+        width: 90px;
+    }
+
+    .mobile-container {
+        width: 100%;
+        background-color: #fff;
+        max-width: 100%;
+
+    }
+
+
+    .left-background-img-upper>img {
+        max-width: 200px;
+    }
+
+    .padding-top-250 {
+        padding-top: 110px;
+    }
+
+    .text-with-img {
+        gap: 20px;
+    }
+
+    .designer-developer-banner {
+        padding-bottom: 90px;
+    }
+
+    .powering-global {
+        height: 438px;
+    }
+
+    .half-power-global-background {
+        top: 76%;
+    }
+
+    .developer-tool-Sa-inner-content {
+        right: -15%;
+    }
+
+    .developer-tool-heading {
+        font-size: 57px;
+    }
+
+    .possiblites-tab-menu>div {
+        padding: 12px 17px 12px 11px;
+        margin-left: -2px;
+        margin-right: 12px;
+        font-size: 20px;
+    }
+
+    .tab-nft div>h2 {
+        font-size: 43px;
+    }
+
+    .tab-nft div>p {
+        font-size: 17px;
+    }
+
+    .get-started-btn {
+        font-size: 14px;
+    }
+
+    .tab-nft-data-img>img {
+        width: 452px;
+    }
+
+    .snippet-code {
+        font-size: 17px;
+        padding: 9px;
+        top: 80%;
+        left: 28%;
+    }
+
+    .img-container-bg {
+        width: 1630px;
+        max-width: 100%;
+    }
+
+    .large-width-wrapper {
+        max-width: 100%;
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .global-web3-card {
+        width: 321px;
+    }
+
+    .product-drop-down {
+        display: flex;
+        position: unset;
+        box-shadow: unset;
+        padding: 31px 21px 40px 23px;
+    }
+
+    .largest-heading {
+        font-size: 45px;
+    }
+
+    .promo-btn-wrapper {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+
+
+    .hero-sub-heading {
+        font-size: 19px !important;
+        margin-bottom: 0;
+    }
+
+    .video-container>video {
+        max-width: 100%;
+    }
+
+    .card-grid-container {
+        grid-template-columns: auto auto;
+        gap: 21px;
+    }
+
+    .global-web3-cards-container {
+        gap: 9px;
+    }
+
+    .footer-right {
+        gap: 50px;
+    }
+
+    .footer-flex-box {
+        gap: 70px;
+    }
+
+    .gradient-background {
+        width: 321px;
+        height: 223px;
+    }
+
+    .card-banner-wrapper {
+        width: 324px;
+    }
+}
+
+/* @media (max-width: 960px) and (min-width:420px) {
+
+
+    .developer-tool-Sa-inner-content {
+        right: -21%;
+    }
+} */

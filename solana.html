@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Solona</title>
+        <link rel="stylesheet" href="Style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Public+Sans:wght@100;700&display=swap"
+            rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.cdnfonts.com/css/public-sans" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.css" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.2/font/bootstrap-icons.min.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;700&display=swap"
+            rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="super-node-header ethereum-header-bg">
+            <div class="announcment-bar">🥳 Introducing the Alchemy Dapp Store, web3's free and community-supported
+                directory
+            </div>
+            <div class="allignment-wrapper parent-positioner">
+                <nav class="nav-bar d-flex sdk-nav-bar">
+                    <div class="logo">
+                        <a href="">
+                            <img src="./Alchemy assets/Logo.svg" alt="" class="company-logo">
+                        </a>
+                    </div>
+                    <div class="nav-item">
+                        <a id="tab-1" class="anchor-tag product-menu" href="#">products</a>
+                        <a id="tab-2" class="anchor-tag product-menu" href="">Use cases</a>
+                        <a class="anchor-tag" href="">Developers</a>
+                        <a class="anchor-tag" href="">Company</a>
+                        <a class="anchor-tag" href="">Pricing</a>
+                    </div>
+                    <!-- //product drop-down on hover -->
+                    <div class="product-drop-down-tabs-content">
+                        <div data-text="tab-1" class="drop-down">
+                            <div class="product-drop-down">
+                                <div class="drop-menu-item">
+                                    <div class="drop-menu-heading">PRODUCT SUIT</div>
+                                    <div class="drop-menu-items-list">
+                                        <div class="list-content">
+                                            <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <h5>Supernode</h5>
+                                                <p>Supercharged web3 API</p>
+                                            </div>
+                                        </div>
+                                        <div class="list-content">
+                                            <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <h5>NFT API</h5>
+                                                <p>Build all NFT functionality with ease</p>
+                                            </div>
+                                        </div>
+                                        <div class="list-content">
+                                            <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <h5>SDk</h5>
+                                                <p>Plug Alchemy into yout app</p>
+                                            </div>
+                                        </div>
+                                        <div class="list-content">
+                                            <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <h5>Transact</h5>
+                                                <p>Free and automated allowlists</p>
+                                            </div>
+                                        </div>
+                                        <div class="list-content">
+                                            <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <h5>Notify</h5>
+                                                <p>Add notifications to your app</p>
+                                            </div>
+                                        </div>
+                                        <div class="list-content">
+                                            <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <h5>Enhanced APIs</h5>
+                                                <p>New Functionlity to your app</p>
+                                            </div>
+                                        </div>
+                                        <div class="list-content">
+                                            <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <h5>Spearmint</h5>
+                                                <p>Free and automated allowlists</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="drop-menu-item">
+                                    <div class="drop-menu-heading">CHAINS</div>
+                                    <div class="drop-menu-items-list">
+                                        <div class="list-content">
+                                            <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <h5>Ethereum</h5>
+                                                <p>The default web3 blockchain</p>
+                                            </div>
+                                        </div>
+                                        <div class="list-content">
+                                            <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <h5>Polygon</h5>
+                                                <p>Easy Ethereum scating</p>
+                                            </div>
+                                        </div>
+                                        <div class="list-content">
+                                            <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <h5>Selana</h5>
+                                                <p>Powerful and fast for everyone</p>
+                                            </div>
+                                        </div>
+                                        <div class="list-content">
+                                            <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <h5>Arbitrum</h5>
+                                                <p>Scale wihtout compromise</p>
+                                            </div>
+                                        </div>
+                                        <div class="list-content">
+                                            <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <h5>Optimism</h5>
+                                                <p>New scaliblity stack</p>
+                                            </div>
+                                        </div>
+                                        <div class="list-content">
+                                            <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <h5>Astar</h5>
+                                                <p>Connecting polkadot to all L1s</p>
+                                            </div>
+                                        </div>
+                                        <div class="list-content">
+                                            <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <h5>Starknet</h5>
+                                                <p>Security with Zk-Rollups</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div data-text="tab-2" class="product-drop-down lft-position-usecase">
+                                <div class="drop-menu-item">
+                                    <div class="drop-menu-heading">CASE STUDIES</div>
+                                    <div class="drop-menu-items-list">
+                                        <div class="list-content">
+                                            <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <h5>Zapper</h5>
+                                                <p>30% cost saving with Alchemy</p>
+                                            </div>
+                                        </div>
+                                        <div class="list-content">
+                                            <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <h5>Decentral Games</h5>
+                                                <p>1K NFT sold out in under 2min</p>
+                                            </div>
+                                        </div>
+                                        <div class="list-content">
+                                            <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <h5>Zerion</h5>
+                                                <p>7800 annual eng hours saved</p>
+                                            </div>
+                                        </div>
+                                        <div class="list-content">
+                                            <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <h5>Collab.land</h5>
+                                                <p>3.5M+ wallets integrated </p>
+                                            </div>
+                                        </div>
+                                        <div class="list-content">
+                                            <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <h5>Royal</h5>
+                                                <p>33% of polygon capacity in single drop</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="drop-menu-item">
+                                    <div class="drop-menu-heading">FEATURED USE CASES</div>
+                                    <div class="drop-menu-items-list">
+                                        <div class="list-content">
+                                            <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <h5>NFT</h5>
+                                                <p>supporting all major NFT platforms</p>
+                                            </div>
+                                        </div>
+                                        <div class="list-content">
+                                            <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <h5>DeFi</h5>
+                                                <p>Powering the majority of DeFi</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-text="tab-3" class="product-drop-down justify-content developers-position">
+                                <div class="drop-menu-item">
+                                    <div class="drop-menu-heading">DOCUMENTATION </div>
+                                    <div class="drop-menu-items-list">
+                                        <div class="d-flex">
+                                            <div class="list-content-doc-content">
+                                                <div class="list-names">
+                                                    <div class="flex-wrapper">
+                                                        <img src="./img/get-started-tab-drop-down.svg">
+                                                        <h5>Get Started
+                                                        </h5>
+                                                    </div>
+                                                    <div class="align-content-wrapper">
+                                                        <p class="list-name-content">Developer Hub</p>
+                                                        <p class="list-name-content">Alchemy API overview</p>
+                                                        <p class="list-name-content">SDK Quickstart</p>
+                                                        <p class="list-name-content">NFT API Quickstart</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="list-content-doc-content">
+                                                <div class="list-names">
+                                                    <div class="flex-wrapper">
+                                                        <img src="./img/learn-drop-down-menu-icon.svg">
+                                                        <h5>Learn</h5>
+                                                    </div>
+                                                    <div class="align-content-wrapper">
+                                                        <p class="list-name-content">Alchemy University</p>
+                                                        <p class="list-name-content">Alchemy Quickstart</p>
+                                                        <p class="list-name-content">Depoy First Smart Contract</p>
+                                                        <P class="list-name-content">Create on NFT Minter</P>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-content-doc-content">
+                                            <div class="list-names list-name-docs-content">
+                                                <div class="flex-wrapper">
+                                                    <img src="./img/get-started-tab-drop-down.svg">
+                                                    <h5>Chain Docs
+                                                    </h5>
+                                                </div>
+                                                <div class="d-flex flex-override">
+                                                    <div class="align-content-wrapper">
+                                                        <p class="list-name-content">Ethereum</p>
+                                                        <p class="list-name-content">Polygon</p>
+                                                        <p class="list-name-content">Solana</p>
+                                                    </div>
+                                                    <div class="list-content-doc-content">
+                                                        <div class="align-content-wrapper">
+                                                            <p class="list-name-content">Arbitrum</p>
+                                                            <p class="list-name-content">Optimism</p>
+                                                            <p class="list-name-content">Astar</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-content-doc-content padding-40-top ">
+                                            <div class="">
+                                                <div class="drop-menu-heading">RESOURCES</div>
+                                                <div class="d-flex flex-override align-item">
+                                                    <div class="align-content-wrapper">
+                                                        <h5 class="list-name-content">DApp Store</h5>
+                                                        <h5 class="list-name-content">Guides</h5>
+                                                        <h5 class="list-name-content">Status</h5>
+                                                    </div>
+                                                    <div class="list-content-doc-content">
+                                                        <div class="align-content-wrapper">
+                                                            <h5 class="list-name-content">Goerli Faucet</h5>
+                                                            <h5 class="list-name-content">Discover</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab-4" class="nav-menu_company-component product-drop-down">
+                                <div class="d-flex flex-gap-35">
+                                    <div class="flex-content">
+                                        <div class="flex-wrapper">
+                                            <div class="list-icon"><img src="./img/company-component-1.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <p>BLOG</p>
+                                            </div>
+                                        </div>
+                                        <div class="flex-wrapper">
+                                            <div class="list-icon"><img src="./img/company-component-2.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <p>NEWSROOM</p>
+                                            </div>
+                                        </div>
+                                        <div class="flex-wrapper">
+                                            <div class="list-icon"><img src="./img/company-component-3.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <p>NEWSLETTER</p>
+                                            </div>
+                                        </div>
+                                        <div class="flex-wrapper">
+                                            <div class="list-icon"><img src="./img/company-component-4.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <p>EVENTS</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex-content">
+                                        <div class="flex-wrapper">
+                                            <div class="list-icon"><img src="./img/company-component-5.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <p>ABOUT</p>
+                                            </div>
+                                        </div>
+                                        <div class="flex-wrapper">
+                                            <div class="list-icon"><img src="./img/company-component-6.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <p>CAREERS</p>
+                                            </div>
+                                        </div>
+                                        <div class="flex-wrapper">
+                                            <div class="list-icon"><img src="./img/company-component-7.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <p>Get in touch</p>
+                                            </div>
+                                        </div>
+                                        <div class="flex-wrapper">
+                                            <div class="list-icon"><img src="./img/company-component-7.svg">
+                                            </div>
+                                            <div class="list-names">
+                                                <p>Ventures</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="account-login">
+                            <button class="user-btn-sign-in"><a class="anchor-tag"
+                                    href="./sign-in.html">sign-in</a></button>
+                            <button class="user-btn-sign-up"><a class="anchor-tag "
+                                    href="./sign-in.html">sign-up</a></button>
+                        </div>
+                </nav>
+            </div>
+        </header>
+        <main class="polygon-top-banner solana-top-banner">
+            <div class="poly-hero-section large-width-wrapper">
+                <div class="poly-content-left-container">
+                    <div class="content-in--left">
+                        <button class="polygon-btn">
+                            <img src="./img/solana-main-banner-btn.svg">
+                        </button>
+                        <h2 class="left-content-heading">
+                            Solana is here.
+                        </h2>
+                        <h4 class="left-conent-sub-heading">
+                            Build the future of the internet economy using Alchemy's world-class blockchain developer
+                            platform.
+                        </h4>
+                        <div class="npm-small-btn-wrapper">
+                            <button class="gt-started-free-white-btn">Get started for free</button>
+                            <button class="without-border--me-btn">Explore the docs<span> ></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="cut-banner-section">
+            <img src="./img/benifit-cut-section-img.svg">
+        </div>
+        <div class="eth-benifits-components">
+            <div class="large-width-wrapper">
+                <div class="eth-benifts-flex-container">
+                    <div class="solana-center-heading">
+                        <p class="fancy-txt">HOW IT WORKS</p>
+                        <h4 class="benifts-polygon-heading
+                        ">The benefits
+                            of Polygon</h4>
+                        <div class="solana-benifts-cards">
+                            <div class="benefits_item"><img src="./img/polygon-dimond-img.svg" loading="lazy" alt=""
+                                    class="benefits-item_image">
+
+                                <div class="benefits-heading_container">
+                                    <h3 class="heading-small is--blue">The best reliability in web3</h3>
+
+                                </div>
+                                <div class="eth-benifits-text-size-normal text-color-gray">Alchemy takes care of the
+                                    hard parts of building on blockchain by providing the most reliable infrastructure
+                                    in web3.
+                                    Solana testing shows Alchemy uptime at 99.9%, making it the best option to build a
+                                    dApp that’s accessible 24/7.
+                                </div>
+                            </div>
+                            <div class="benefits_item"><img src="./img/polygon-dimond-img.svg" loading="lazy" alt=""
+                                    class="benefits-item_image">
+
+                                <div class="benefits-heading_container">
+                                    <h3 class="heading-small is--blue">Free for the first 500 teams</h3>
+
+                                </div>
+                                <div class="eth-benifits-text-size-normal text-color-gray">Solana has always been one of
+                                    the most affordable solutions for web3 devs. Now, we’re making it free to build on
+                                    Solana
+                                    with Alchemy. We already have the largest free tier in web3. But we’re doing more:
+                                    regardless of tier, the first 500
+                                    Solana developers will have free Alchemy access through 2022.
+                                </div>
+                            </div>
+                            <div class="benefits_item"><img src="./img/polygon-dimond-img.svg" loading="lazy" alt=""
+                                    class="benefits-item_image">
+
+                                <div class="benefits-heading_container">
+                                    <h3 class="heading-small is--blue">Lightning fast transactions</h3>
+
+                                </div>
+                                <div class="eth-benifits-text-size-normal text-color-gray">Solana's parallel smart
+                                    contract runtime, Sealevel, enables exceptionally high throughput. With Solana’s
+                                    processing
+                                    speed of more than 2k transactions per second, and Alchemy's infinitely scalable
+                                    infrastructure, Solana devs can build
+                                    on Alchemy to seamlessly grow their app with user demand.
+                                </div>
+                            </div>
+                            <div class="benefits_item"><img src="./img/polygon-dimond-img.svg" loading="lazy" alt=""
+                                    class="benefits-item_image">
+
+                                <div class="benefits-heading_container">
+                                    <h3 class="heading-small is--blue">Single chain</h3>
+
+                                </div>
+                                <div class="eth-benifits-text-size-normal text-color-gray">Solana is a Layer 1
+                                    blockchain that’s easy to develop on. No Layer 2 scaling solutions required to
+                                    increase throughput
+                                    or maintain low gas fees.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="solono-pre-footer-section">
+                <div class="eth-chain-container">
+                    <div class="quote-chain-container large-width-wrapper">
+                        <div class="quote-chain-container-flex-box">
+                            <div class="quote-chain-textcontainer ">
+                                <p class="padding-bottom-130">
+                                    “We're thrilled that Alchemy will now be supporting Solana. Their infrastructure and
+                                    product suite has a proven track
+                                    record for performance benefits. This will be a game changer for Phantom and any
+                                    other
+                                    Solana developers who choose to
+                                    start using Alchemy."
+                                </p>
+                                <div class="quote-chain-author">
+                                    <span>
+                                        <strong>Francesco Agosti,</strong>
+                                    </span>
+                                    <span>Co-Founder of Phantom
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="quote-chain-imagecontainer">
+                                <img src="./img/phantom-logo.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="supernode-prefooter-section color-solono-wall ">
+                    <div class="solana-asked-questions-sections large-width-wrapper">
+                        <div class="ask-questions-heading">
+                            <h5>ForDevelopers</h5>
+                            <h2 class="card-fancy-heading">Frequently Asked Questions</h2>
+                        </div>
+                        <button class="hover-me-btn">View solana chain docs<span class="side-arrow">🡭</span></button>
+                        <div class="accordian-container">
+                            <div id="accordiandemo" class="accordions">
+                                <div id="acc" class="accordion">
+                                    <button class="section">How does Solana work?</button>
+                                    <p class="para">Solana is a Proof of Stake L1 blockchain that uses novel blockchain
+                                        innovations like Proof of History and Sealevel to
+                                        process smart contract transactions in parallel with 400ms block times. Solana
+                                        is
+                                        able
+                                        to achieve an estimated 4,000
+                                        transactions per second, with transaction costs less than $0.01.</p>
+                                </div>
+                                <div class="accordion">
+                                    <button class="section">What resources should I use to start building on Solana with
+                                        Alchemy?</button>
+                                    <p class="para">Ready to get started? Take a look at our Solana docs, and find all
+                                        of
+                                        the
+                                        supported methods for Solana mainnet
+                                        development! You can also read overviews about how to get started with Solana’s
+                                        Devnet,
+                                        and learn about Solana’s NFT
+                                        smart contract by Metaplex.
+                                    </p>
+                                </div>
+                                <div id="acc-3" class="accordion">
+                                    <button class="section">What Alchemy functionality exists for Solana developers?
+                                    </button>
+                                    <p class="para">As of July 21st, 2022, all Solana devs will have access to:
+                                        1. Alchemy Supernode, with infinitely scalable infrastructure that allows you to
+                                        easily
+                                        launch and scale your dApps on
+                                        Solana. Take a look at the complete list of supported methods.
+                                        2. Developer tools, including our Composer to prototype calls and our Explorer
+                                        to
+                                        optimize and spot bugs.
+                                        3. WebSockets, shipped based on your feedback. Check out subscription Websockets
+                                        for
+                                        Solana and learn more about
+                                        Websockets and why you need them. </p>
+                                </div>
+                                <div id="acc-3" class="accordion">
+                                    <button class="section">Why will using Alchemy be different than running our own
+                                        Solana
+                                        node? </button>
+                                    <p class="para">As of July 21st, 2022, all Solana devs will have access to:
+                                        1. Alchemy Supernode, with infinitely scalable infrastructure that allows you to
+                                        easily
+                                        launch and scale your dApps on
+                                        Solana. Take a look at the complete list of supported methods.
+                                        2. Developer tools, including our Composer to prototype calls and our Explorer
+                                        to
+                                        optimize and spot bugs.
+                                        3. WebSockets, shipped based on your feedback. Check out subscription Websockets
+                                        for
+                                        Solana and learn more about
+                                        Websockets and why you need them. </p>
+                                </div>
+                                <div id="acc-3" class="accordion">
+                                    <button class="section">What if I signed up during the Early Access period?
+                                    </button>
+                                    <p class="para">As of July 21st, 2022, all Solana devs will have access to:
+                                        1. Alchemy Supernode, with infinitely scalable infrastructure that allows you to
+                                        easily
+                                        launch and scale your dApps on
+                                        Solana. Take a look at the complete list of supported methods.
+                                        2. Developer tools, including our Composer to prototype calls and our Explorer
+                                        to
+                                        optimize and spot bugs.
+                                        3. WebSockets, shipped based on your feedback. Check out subscription Websockets
+                                        for
+                                        Solana and learn more about
+                                        Websockets and why you need them. </p>
+                                </div>
+                                <div id="acc-3" class="accordion">
+                                    <button class="section">Is the Solana Early Access period over? </button>
+                                    <p class="para">As of July 21st, 2022, all Solana devs will have access to:
+                                        1. Alchemy Supernode, with infinitely scalable infrastructure that allows you to
+                                        easily
+                                        launch and scale your dApps on
+                                        Solana. Take a look at the complete list of supported methods.
+                                        2. Developer tools, including our Composer to prototype calls and our Explorer
+                                        to
+                                        optimize and spot bugs.
+                                        3. WebSockets, shipped based on your feedback. Check out subscription Websockets
+                                        for
+                                        Solana and learn more about
+                                        Websockets and why you need them. </p>
+                                </div>
+                                <div id="acc-3" class="accordion">
+                                    <button class="section"> Will Solana be free for everyone in 2022?</button>
+                                    <p class="para">As of July 21st, 2022, all Solana devs will have access to:
+                                        1. Alchemy Supernode, with infinitely scalable infrastructure that allows you to
+                                        easily
+                                        launch and scale your dApps on
+                                        Solana. Take a look at the complete list of supported methods.
+                                        2. Developer tools, including our Composer to prototype calls and our Explorer
+                                        to
+                                        optimize and spot bugs.
+                                        3. WebSockets, shipped based on your feedback. Check out subscription Websockets
+                                        for
+                                        Solana and learn more about
+                                        Websockets and why you need them. </p>
+                                </div>
+                                <div id="acc-3" class="accordion">
+                                    <button class="section">Where can I learn more about Solana?</button>
+                                    <p class="para">As of July 21st, 2022, all Solana devs will have access to:<br>
+                                        1. Alchemy Supernode, with infinitely scalable infrastructure that allows you to
+                                        easily
+                                        launch and scale your dApps on
+                                        Solana. Take a look at the complete list of supported methods.<br>
+                                        2. Developer tools, including our Composer to prototype calls and our Explorer
+                                        to
+                                        optimize and spot bugs.<br>
+                                        3. WebSockets, shipped based on your feedback. Check out subscription Websockets
+                                        for
+                                        Solana and learn more about
+                                        Websockets and why you need them. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nt-quote-container">
+                            <div class="large-width-wrapper">
+                                <img class="solana-logo-img" src="./img/solana-main-banner-btn.svg">
+                                <blockquote class="nt-quote-content">"Alchemy Notify is a game changer for us and a game
+                                    changer
+                                    for
+                                    any developer building a dApp. Building and maintaining this on your own is
+                                    extremely
+                                    hard,
+                                    and
+                                    Notify completely removes the painpoint."</blockquote>
+                                <img src="./img/634f23730d0e4b283f8156c6_raj (1).png">
+                                <p class="Quote-tagline">Raj Gokal</p>
+                                <p class=" Quote-tagline tagline_ceo">Co-Founder of Solana</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="Enhanced-cta-section solona-gradient">
+                <div class="large-width-wrapper">
+                    <div class="cta-internal-container parent-positioner">
+                        <h2 class="largest-heading  text-color-white parent-positioner">Want to learn more</h2>
+                        <h2 class="largest-heading  text-color-white parent-positioner">about Solana?</h2>
+                        <P class="cta-secondary-heading Ethereum-secondary-wdt parent-positioner">Get an in depth
+                            explanation of Polygon and how you can start building by visiting the docs.</P>
+                        <button class="cta-section-btn">Explore the docs</button>
+                    </div>
+                </div>
+                <div class=" "></div>
+            </section>
+            <footer>
+                <div class="large-width-wrapper">
+                    <div class="footer-flex-box">
+                        <div class="footer-left">
+                            <div class="logo margin-11">
+                                <a href="">
+                                    <img style="max-width: 100%;" src="./img/Alchemy-logo-footer.svg" alt=""
+                                        class="company-logo">
+                                </a>
+                            </div>
+                            <p class="footer-small-heading margin-11">The web3 development platform</p>
+                            <div class="newsletter-footer">
+                                <p class="newsletter-text margin-11">Supercharge your inbox</p>
+                                <p style="font-size: 13px!important;" class="footer-small-heading margin-11">Sign up
+                                    for
+                                    our
+                                    developer newsletter:
+                                </p>
+                                <form class="news-letter-form">
+                                    <input type="email" style="width:250px;" class="newsletter-form_text-field"
+                                        name="email" data-name="Email" placeholder="Enter your email address" id="email"
+                                        required="">
+                                    <input class="submit-btn">
+                                </form>
+                            </div>
+                        </div>
+                        <div class="footer-right">
+                            <div class="footer_link-container">
+                                <div class="footer_link-heading">Products</div>
+                                <a href="" class="footer_link">Supernode</a>
+                                <a href="" class="footer_link">NFT&nbsp;API</a>
+                                <a href="" class="footer_link">SDK</a>
+                                <a href="" class="footer_link">Notify</a>
+                                <a href="" class="footer_link">Enhanced
+                                    APIs</a>
+                                <a href="" class="footer_link">Monitor</a>
+                                <a href="" class="footer_link">Build</a>
+                                <a href="" class="footer_link">Composer</a>
+                                <a href="" class="footer_link">Transact</a>
+                                <a href="" class="footer_link">Spearmint</a>
+                            </div>
+                            <div class="footer_link-container">
+                                <div class="footer_link-heading">Developers</div><a
+                                    href="https://dashboard.alchemyapi.io/login" target="_blank"
+                                    class="footer_link">Login</a><a href="https://dashboard.alchemyapi.io/signup/"
+                                    target="_blank" class="footer_link">Sign
+                                    Up</a><a href="https://docs.alchemy.com/" target="_blank"
+                                    class="footer_link">Docs</a><a href="https://status.alchemy.com/" target="_blank"
+                                    class="footer_link">Status</a><a href="https://goerlifaucet.com/" target="_blank"
+                                    class="footer_link">Goerli
+                                    Faucet</a><a href="https://rinkebyfaucet.com/" target="_blank"
+                                    class="footer_link">Rinkeby
+                                    Faucet</a><a href="https://mumbaifaucet.com/" target="_blank"
+                                    class="footer_link">Mumbai
+                                    Faucet</a><a href="/gwei-calculator" class="footer_link">Gwei Calculator</a>
+                            </div>
+                            <div class="footer_link-container">
+                                <div class="footer_link-heading">Learn</div><a href="#"
+                                    class="footer_link is--hidden">Tutorials</a><a href="#"
+                                    class="footer_link is--hidden">Guides</a><a href="#"
+                                    class="footer_link is--hidden">Code
+                                    Snippets</a><a href="https://university.alchemy.com/" target="_blank"
+                                    class="footer_link">Alchemy
+                                    University</a><a href="https://www.alchemy.com/dapps" class="footer_link">Dapp
+                                    Store</a><a href="/overviews" class="footer_link">Overviews</a><a
+                                    href="/all-case-studies" class="footer_link">Case Studies</a><a href="/newsletter"
+                                    class="footer_link">Newsletter</a><a href="https://www.alchemy.com/blog"
+                                    target="_blank" class="footer_link">Blog</a><a href="#"
+                                    class="footer_link is--hidden">Forum</a>
+                            </div>
+                            <div class="footer_link-container">
+                                <div class="footer_link-heading">Company</div>
+                                <a href="" class="footer_link">About Us</a>
+                                <a rel="noreferrer" href="" target="_blank" class="footer_link">Careers</a>
+                                <a href="" class="footer_link">Customers</a>
+                                <a href="#" class="footer_link is--hidden">Enterprise</a>
+                                <a href="" class="footer_link">Newsroom</a>
+                                <a rel="noreferrer" href="" target="_blank" class="footer_link">Press Kit</a>
+                                <a rel="noreferrer" href="" target="_blank" class="footer_link">Terms of Service</a>
+                                <a rel="noreferrer" href="" class="footer_link">Dapp Store Terms of
+                                    Use</a>
+                                <a rel="noreferrer" href="" class="footer_link">Privacy Policy</a>
+                            </div>
+                            <div class="footer_link-container">
+                                <div class="footer_link-heading">Contact</div>
+                                <a href="mailto:hello@alchemy.com" class="footer_link">General
+                                    Inquiries</a>
+                                <a href="" class="footer_link">Sales</a>
+                                <a href="mailto:press@alchemy.com" class="footer_link">Press</a>
+                                <a href="mailto:support@alchemy.com" class="footer_link">Support</a>
+                                <a rel="noreferrer" href="" target="_blank" class="footer_link">Discord</a>
+                            </div>
+
+                        </div>
+                        <!-- Footer social icons -->
+                    </div>
+                </div>
+                <div class="lower-bottom-footer large-width-wrapper">
+                    <p class="footer-small-heading margin-11">©
+                        <script>
+                            document.write(new Date().getFullYear())
+                        </script> Alchemy Insights, Inc
+                    </p>
+                    <div class="footer-bottom_right-socialicon">
+                        <div class="footer-social-icon-container">
+                            <img src="./img/footer-social-1.svg">
+                            <img src="./img/footer-social-2.svg">
+                            <img src="./img/footer-social-3.svg">
+                            <img src="./img/footer-social-4.svg">
+                            <img src="./img/footer-social-5.svg">
+                        </div>
+                        <button class="footer-bottom-right-btn">
+                            <img src="./img/footer-bottom-right-logo.svg">
+                            <p>Powered by <span class="Bold-text">Alchemy</span></p>
+                        </button>
+                    </div>
+                </div>
+
+            </footer>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script>$(document).ready(function () {
+            $(".accordions .accordion button ").click(function () {
+                if (!$(this).parent().hasClass("_active")) {
+                    $(".accordion").removeClass("_active");
+                }
+                $(this).parent().toggleClass("_active");
+            });
+        });</script>
+
+</html>

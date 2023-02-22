@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-in</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Rubik', sans-serif;
+            font-weight: 400;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .form-heading {
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+            border-bottom: 1px solid #d5d5d5;
+            background: #fff;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        
+        .background-color-wrapper {
+            background: linear-gradient(252.98deg, #05D5FF 4.93%, #5533FF 103.69%);
+            padding: 40px;
+        }
+        
+        .wrapper {
+            padding: 40px;
+        }
+        
+        .form-container {
+            display: flex;
+            padding: 0px;
+            flex-direction: column;
+        }
+        
+        .gender-grup {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .radio-class {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            column-gap: 5px;
+        }
+        
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            font-size: 30px;
+            margin-top: 0;
+        }
+        
+        .form-box {
+            display: block;
+            background-color: #F5F5F5;
+            font-size: 15px;
+            font-weight: 700;
+            max-width: 100%;
+            width: 630px;
+            margin: 0 auto;
+            border-radius: 9px;
+        }
+        
+        .input {
+            padding: 22px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            font-family: Arial, Helvetica, sans-serif;
+            max-width: 100%;
+            width: 100%;
+            border-radius: 3px;
+            font-size: 18px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            color: gray;
+        }
+        
+        .css-uqoyt3 {
+            font-size: 18px;
+        }
+        
+        .btn {
+            cursor: pointer;
+            padding: 20px;
+            background-color: #0a6dc4;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        
+        .btn:hover {
+            background-color: #137bd6;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        
+        .errortext {
+            display: block;
+            color: red;
+            font-size: 17px;
+            margin: 0;
+        }
+        
+        .alchemy-white-logo-container {
+            display: block;
+            text-align: center;
+            padding-bottom: 40px;
+        }
+        
+        .alchemy-white-logo-container>img {
+            max-width: 100%;
+            width: 170px;
+        }
+        
+        .sign-up-footer-small-heading {
+            text-align: center;
+            color: white;
+            font-size: 18px;
+            margin-top: 50px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="background-color-wrapper">
+        <div class="alchemy-white-logo-container">
+            <img src="./img/alchemy-white -logo.svg">
+        </div>
+        <div class="form-box">
+            <div class="form-heading">
+                <h1>Signup</h1>
+            </div>
+            <div class="wrapper">
+                <form class="form-container">
+                    <div class="form-group">
+                        <label class='name' for="fname">First name</label>
+                        <input class="input alpha" type="text" id="first_name" placeholder="Enter first name" name="fname" autocomplete='off'>
+                        <h3 class="errortext" id="fnamecheck_error"></h3>
+                    </div>
+                    <div class="form-group">
+                        <label for="lname">Last name</label>
+                        <input class="input alpha" type="text" id="last_name" placeholder="Enter last name" name="lname" autocomplete='off'>
+                        <h3 class="errortext" id="lnamecheck_error"></h3>
+                    </div>
+                    <div class="form-group">
+                        <label for="lname">Email</label>
+                        <input class="input" type="text" id="email" placeholder="Enter your email" name="email" autocomplete='off'>
+                        <h3 class="errortext" id="emailcheck_error"></h3>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone_number">Phone number</label>
+                        <input class="input" maxlength="10" placeholder="Enter your phone number" type="text" id="phone" name="integer" autocomplete='off'>
+                        <h3 class="errortext" id="phonecheck_error"></h3>
+                    </div>
+
+                    <div class="gender-grup">
+                        <label class="gender-title" for="Gender">Gender</label>
+
+                        <div class="radio-class">
+                            <label for="gender_male">Male
+  </label>
+                            <input class="radio-btn" type="radio" id="gender_male" value="male" name="gender">
+                            <label for="gender_female">Female</label>
+                            <input class="radio-btn" type="radio" id="gender_female" value="female" name="gender">
+                        </div>
+                    </div>
+                    <input class="btn" type="submit" value="Sign up">
+                </form>
+                <div class="css-uqoyt3">By clicking “Sign Up” you are agreeing to Alchemy's
+                    <!-- --><a href="https://www.alchemy.com/policies/terms" target="_blank" class="css-1dqcf5">terms of service</a>
+                    <!-- -->and&nbsp;<a href="https://www.alchemy.com/policies/privacy-policy" target="_blank" class="css-1dqcf5">privacy policy</a>.</div>
+            </div>
+        </div>
+        <p class="sign-up-footer-small-heading margin-11 ">©
+            <script>
+                document.write(new Date().getFullYear())
+            </script> Alchemy Insights, Inc
+        </p>
+    </div>
+</body>
+
+</html>

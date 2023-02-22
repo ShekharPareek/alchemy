@@ -1,0 +1,32 @@
+<svg width="420" height="252" viewBox="0 0 420 252" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1007_8623)">
+<rect width="420" height="252" rx="24" fill="url(#paint0_linear_1007_8623)"/>
+<rect width="420" height="252" rx="24" fill="black" fill-opacity="0.2"/>
+<circle cx="264" cy="56" r="7.25" fill="#FFAA8F" fill-opacity="0.2" stroke="#FFAA8F" stroke-width="1.5"/>
+<mask id="path-6-inside-1_1007_8623" fill="white">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M270.076 92.9999H284C290.627 92.9999 296 98.3725 296 105V228C296 234.627 290.627 240 284 240H140C133.373 240 128 234.627 128 228V105C128 98.3725 133.373 92.9999 140 92.9999H258.551L264.314 86L270.076 92.9999Z"/>
+</mask>
+<path d="M270.076 92.9999L268.532 94.2711L269.132 94.9999H270.076V92.9999ZM258.551 92.9999V94.9999H259.495L260.095 94.2711L258.551 92.9999ZM264.314 86L265.858 84.7289L264.314 82.8532L262.77 84.7289L264.314 86ZM270.076 94.9999H284V90.9999H270.076V94.9999ZM284 94.9999C289.523 94.9999 294 99.4771 294 105H298C298 97.268 291.732 90.9999 284 90.9999V94.9999ZM294 105V228H298V105H294ZM294 228C294 233.523 289.523 238 284 238V242C291.732 242 298 235.732 298 228H294ZM284 238H140V242H284V238ZM140 238C134.477 238 130 233.523 130 228H126C126 235.732 132.268 242 140 242V238ZM130 228V105H126V228H130ZM130 105C130 99.4771 134.477 94.9999 140 94.9999V90.9999C132.268 90.9999 126 97.268 126 105H130ZM140 94.9999H258.551V90.9999H140V94.9999ZM260.095 94.2711L265.858 87.2711L262.77 84.7289L257.007 91.7288L260.095 94.2711ZM262.77 87.2711L268.532 94.2711L271.62 91.7288L265.858 84.7289L262.77 87.2711Z" fill="#FFAA8F" mask="url(#path-6-inside-1_1007_8623)"/>
+<rect x="138" y="103" width="148" height="88" rx="9" fill="#FFAA8F" fill-opacity="0.2" stroke="#FFAA8F" stroke-width="2"/>
+<path d="M207.832 115.653L230.233 143.465L216.409 177.384L193.901 148.77L207.832 115.653Z" stroke="#FFAA8F" stroke-width="2" stroke-linejoin="bevel"/>
+<path d="M207.832 115.653L205.365 137.507L193.901 148.77L207.832 115.653Z" stroke="#FFAA8F" stroke-width="2" stroke-linejoin="bevel"/>
+<path d="M216.414 177.383L205.372 137.47L193.906 148.77L216.414 177.383Z" stroke="#FFAA8F" stroke-width="2" stroke-linejoin="bevel"/>
+<path d="M216.405 177.385L205.447 137.702L230.229 143.467L216.405 177.385Z" stroke="#FFAA8F" stroke-width="2" stroke-linejoin="bevel"/>
+<rect x="145" y="209" width="62" height="14" rx="3" fill="#FFAA8F" fill-opacity="0.2" stroke="#FFAA8F" stroke-width="2"/>
+<rect x="217" y="209" width="62" height="14" rx="3" fill="#FFAA8F" fill-opacity="0.2" stroke="#FFAA8F" stroke-width="2"/>
+<rect x="-217" y="33" width="532.382" height="301" rx="15.5273" stroke="#FFAA8F" stroke-width="2"/>
+<path d="M-216.623 74L316 74" stroke="#FFAA8F" stroke-width="2"/>
+<rect x="283" y="48" width="16" height="3" fill="#FFAA8F"/>
+<rect x="283" y="54" width="16" height="3" fill="#FFAA8F"/>
+<rect x="283" y="60" width="16" height="3" fill="#FFAA8F"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1007_8623" x1="210" y1="0" x2="210" y2="252" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3051C5"/>
+<stop offset="1" stop-color="#000F46"/>
+</linearGradient>
+<clipPath id="clip0_1007_8623">
+<rect width="420" height="252" rx="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>
